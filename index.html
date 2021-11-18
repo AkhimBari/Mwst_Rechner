@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" onsubmit="return false">
+        <div>
+            <p>
+                Was soll berechnet werden ?
+            </p>
+        </div>
+        <div>
+            <input type="radio" text="" name="name" value="" id="aufschlag" onclick="bruttoClick()">
+            <label for="">Mehrwertsteuer aufschlagen (Netto zu Brutto)</label>
+        </div>
+        <div>
+            <input type="radio" text="" name="name" value="" id="abziehen" onclick="nettoClick()">
+            <label for="">Mehrwertsteuer abziehen (Brutto zu Netto)</label>
+        </div>
+        <div class="whiteborder2">
+            <p>
+                Mehrwertsteuersatz
+            </p>
+        </div>
+        <div class="whiteborder3">
+            <input type="radio" name="prozent" value="" id="nineTeen">
+            <label for="">19%</label>
+
+            <input type="radio" name="prozent" value="" id="seven">
+            <label for="">7%</label>
+        </div>
+        <div>
+            <p id="switcher2"> </p>
+        </div>
+        <div class="inputSize">
+            <input type="number" id="inputNumber">
+        </div>
+        <div class="btn">
+            <button onclick="press()">Berechnen</button>
+        </div>
+        <div class="ergebnis">
+            <p>
+                Ergebnis
+            </p>
+        </div>
+        <div>
+            <p>
+                Mehrwertsteuerbetrag
+            </p>
+            <p id="result1"></p>
+        </div>
+        <div class="whiteborder">
+            <p id="switcher">
+                Bruttobetrag (Endpreis)
+            </p>
+            <p id="result2"></p>
+
+        </div>
+
+    </form>
+    <script src=" assets/js/main.js"></script>
+</body>
+
+</html>
