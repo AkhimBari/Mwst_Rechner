@@ -5,17 +5,30 @@
 
 body {
     max-width: 1440px;
-    background-color: rgb(34, 27, 24);
+    background-color: rgb(8, 8, 8);
+    color: rgb(219, 216, 19);
 
 
 }
 
+header {
+    background-color: rgb(163, 34, 34);
+    text-align: center;
+
+}
+
+h1 {
+    padding: 20px 0;
+}
+
+
+
 form {
-    border: 5px solid rgb(13, 13, 235);
-    background-color: rgb(232, 241, 253);
+    border: 5px solid rgb(13, 235, 150);
+    background-color: rgb(48, 134, 48);
     border-radius: 3px;
     width: 35%;
-    margin: 5% auto;
+    margin: 2% 0;
 }
 
 div {
@@ -69,9 +82,25 @@ button:hover {
 }
 
 
-
-
 #inputNumber {
     padding: 5px 0;
     width: 20%;
+}
+
+img{
+ position: absolute;
+ right:5vh;
+ top: 10vh;  
+}
+
+
+footer {
+    background-color: rgb(163, 34, 34);
+
+}
+
+footer p {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 3rem;
 }
